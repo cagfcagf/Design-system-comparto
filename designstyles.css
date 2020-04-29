@@ -63,3 +63,42 @@
   background-color: #32F2A7;
   border-color: #32F2A7;
 }
+
+/* boton principal con icono */
+.btn-main-with-icon {
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  letter-spacing: -0.2px;
+  text-transform: uppercase;
+  font-size: 19px;
+  color: white;
+  background-color: #EB8F00;
+  border-radius: 10px;
+  width: 247px;
+  height: 67px;
+  border-width: 1.4px;
+  border-color: #EB8F00;
+  text-align: center;
+  line-height: 34px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+.btn-main-with-icon-icon {
+  height: 45px;
+}
+
+.btn-main-with-icon:hover, .btn-main-with-icon:hover #Trazado_22, .btn-main-with-icon:hover #Trazado_23,.btn-main-with-icon:hover #Trazado_24,.btn-main-with-icon:hover #Trazado_25  {
+  background-color: white;
+  font: #282E3C;
+  fill: #282E3C;
+}
+
+
+.btn-main-with-icon:active {
+  background-color: #F7A72C;
+  border-color: #F7A72C;
+}
