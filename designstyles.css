@@ -1,45 +1,54 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
 /* boton inicio de sesion */
 
-.btn-sesion-default {
+.btn-sesion {
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-  letter-spacing: -0.2px;
-  text-transform: uppercase;
-  font-size: 12px;
-  color: #282E3C;
   background-color: #00EB8F;
   border-radius: 10px;
-  width: 140px;
-  height: 36px;
   border-width: 1.4px;
   border-color: #00EB8F;
   text-align: center;
-  line-height: 34px;
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
+  width: fit-content;
 }
 
+.btn-sesion-text {
+  margin-right: 8.6px;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #282E3C;
+  font-weight: bold;
+  letter-spacing: -0.2px;
+}
 
-.btn-sesion-default-icon {
+.btn-sesion-icon {
   height: 21.34px;
+  margin: 6px 5px 6px 6px;
 }
 
-.btn-sesion-default:hover {
+.btn-sesion:hover {
   background-color: white;
 }
 
-.btn-sesion-default:active {
+.btn-sesion:active {
   background-color: #32F2A7;
   border-color: #32F2A7;
 }
 
+.btn-sesion:disable {
+  background-color: red;
+}
+
+
 /* boton princial */
 
 .btn-main {
-  padding: 0;
-  font-family: 'Montserrat', sans-serif;
+  padding: 12px 46px 12px 46px;
   font-weight: 600;
   letter-spacing: -0.2px;
   text-transform: uppercase;
@@ -47,8 +56,6 @@
   color: #282E3C;
   background-color: #00EB8F;
   border-radius: 10px;
-  width: 174px;
-  height: 42px;
   border-width: 2px;
   border-color: #00EB8F;
   text-align: center;
@@ -67,38 +74,99 @@
 /* boton principal con icono */
 .btn-main-with-icon {
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-  letter-spacing: -0.2px;
-  text-transform: uppercase;
-  font-size: 19px;
-  color: white;
   background-color: #EB8F00;
   border-radius: 10px;
-  width: 247px;
-  height: 67px;
   border-width: 1.4px;
   border-color: #EB8F00;
-  text-align: center;
-  line-height: 34px;
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
+  width: fit-content;
 }
 
 
 .btn-main-with-icon-icon {
   height: 45px;
+  margin: 9.6px 12px 9.6px 20.6px;
+}
+
+.btn-main-with-icon-text {
+  margin: 20.6px 34.6px 20.6px 0px;
+  font-weight: bold;
+  letter-spacing: -0.2px;
+  text-transform: uppercase;
+  font-size: 19px;
+  color: white;
 }
 
 .btn-main-with-icon:hover, .btn-main-with-icon:hover #Trazado_22, .btn-main-with-icon:hover #Trazado_23,.btn-main-with-icon:hover #Trazado_24,.btn-main-with-icon:hover #Trazado_25  {
   background-color: white;
-  font: #282E3C;
   fill: #282E3C;
 }
 
+.btn-main-with-icon:hover .btn-main-with-icon-text {
+  color: #282E3C;
+}
 
-.btn-main-with-icon:active {
+.btn-main-with-icon:active, .btn-main-with-icon:active #Trazado_22, .btn-main-with-icon:active #Trazado_23,.btn-main-with-icon:active #Trazado_24,.btn-main-with-icon:active #Trazado_25 {
   background-color: #F7A72C;
   border-color: #F7A72C;
+  fill: white;
+}
+
+.btn-main-with-icon:active .btn-main-with-icon-text, .btn-main-with-icon:active .btn-add-product-icon-text  {
+  color: white;
+}
+
+
+/* boton agregar producto */
+
+.btn-add-product {
+  padding: 0;
+  background-color: #EB8F00;
+  border-radius: 10px;
+  border-width: 1.5px;
+  border-color: #EB8F00;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+
+
+.btn-add-product-icon {
+  height: 27px;
+  margin: 6px 0px 6px 16.5px;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-right-color: white;
+  padding-right: 10px;
+}
+
+.btn-add-product-text {
+  margin: 7px 11px 7px 13px;
+  font-weight: 600;
+  letter-spacing: -0.2px;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: white;
+}
+
+.btn-add-product:hover, .btn-add-product:hover #Trazado_30, .btn-add-product:hover #Trazado_31,.btn-add-product:hover #Trazado_32 {
+  background-color: white;
+  fill: #282E3C;
+}
+
+.btn-add-product:hover .btn-add-product-text, .btn-add-product:hover .btn-add-product-icon  {
+  color: #282E3C;
+  border-right-color: #282E3C;
+}
+
+.btn-add-product:active, .btn-add-product:active #Trazado_30, .btn-add-product:active #Trazado_31,.btn-add-product:active #Trazado_32 {
+  background-color: #F7A72C;
+  border-color: #F7A72C;
+  fill: white;
+}
+
+.btn-add-product:active .btn-add-product-text, .btn-add-product:active .btn-add-product-icon  {
+  color: white;
+  border-right-color: white;
 }
