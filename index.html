@@ -64,22 +64,36 @@
 
 <div class="container shadow p-3 mb-5 bg-white">
   <div class="row">
-    <div class="col-6">
+    <div class="col-6 field-margin">
         <h6 class="form-text">Link del producto</h6>
+        <input type="text" class="form-control w-100" placeholder="http://...">
       </div>
-    <div class="col-4">
+    <div class="col-4 field-margin">
         <h6 class="form-text">Valor <span class="font-semibold">unitario</span> del producto</h6>
+        <div class="row m-0">
+        <select class="form-control w-25 field-currency-type">
+        <option>USD</option>
+        </select>
+        <input type="number" class="form-control w-50 field-currency-input">
+        </div>
       </div>
-    <div class="col-2">
+    <div class="col-2 field-margin pl-0">
         <h6 class="form-text">Cantidad</h6>
+        <input type="number" class="form-control w-75">
       </div>
     </div>
     <div class="row">
-      <div class="col-6">
+      <div class="col-6 field-margin">
         <h6 class="form-text">¿Necesitas la caja del producto?</h6>
+        <select class="form-control w-auto">
+        <option>Seleccionar</option>
+        </select>
       </div>
-      <div class="col-6">
-        <h6 class="form-text">categoria del producto</h6>
+      <div class="col-6 field-margin">
+        <h6 class="form-text">Categoria del producto</h6>
+        <select class="form-control w-50">
+        <option>Seleccionar</option>
+        </select>
       </div>
     </div>
 
