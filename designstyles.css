@@ -170,3 +170,77 @@ body {
   color: white;
   border-right-color: white;
 }
+
+/* cards section */
+
+/* card con foto */
+
+.card {
+  border: 0;
+  border-radius: 20px!important;
+  margin: 0 3.5em 0 3.5em;
+  padding: 0px 2.5em 3.5em 2.5em!important;
+
+}
+
+.card-body {
+  padding: 0;
+}
+
+.card-title {
+  color: #EB8F00;
+  font-size: 26px;
+  margin-bottom: 22px;
+}
+
+.card-text {
+  color: #282E3C;
+  font-size: 16px;
+  line-height : 19px;
+}
+
+.card-circle {
+  width: 105px;
+  height: 105px;
+  background-color: #00EB8F;
+  border-radius: 50%;
+  margin: -40px auto 31px auto;
+  position: relative;
+  background-image: url('images/cristian.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media screen and (max-width: 1024px) {
+
+.card-3 {
+  display: none;
+}
+
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+.card-2 {
+    display: none;
+  }
+
+}
+
+/* card con icono */
+
+.card-circle-3 {
+  width: 105px;
+  height: 105px;
+  background-color: #00EB8F;
+  border-radius: 50%;
+  margin: -40px auto 31px auto;
+  position: relative;
+  background-image: url('icons/ahorro.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 60%;
+}
