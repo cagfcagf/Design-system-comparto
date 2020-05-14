@@ -336,3 +336,34 @@ body {
 .wizard-line-container {
   bottom: -20px;
 }
+
+/* tablas */
+
+thead {
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  background-color: #EB8F00;
+}
+
+.table-row {
+  font-size: 15px;
+  font-weight: 500;
+  color: #282E3C;
+  background-color: #FAFAFA;
+  border-bottom: 7px solid white;
+}
+
+.custom-control-label::before {
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: #282E3C;
+  background-color: #FAFAFA;
+}
+
+
+
+.custom-control-input:checked~.custom-control-label::before {
+  border-color: #282E3C;
+  background-color: #00EB8F;
+}
