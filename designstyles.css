@@ -367,3 +367,53 @@ thead {
   border-color: #282E3C;
   background-color: #00EB8F;
 }
+
+
+/* tabla producto */
+
+.container-product-table {
+  background-color: white;
+  padding: 27px 17px 27px 17px;
+  border-left-color: white;
+  border-left-style: solid;
+  border-left-width: 12px;
+  border-right-color: white;
+  border-right-style: solid;
+  border-right-width: 12px;
+}
+
+.product-table-title {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -0.2px;
+  color: #282E3C;
+}
+
+.product-table-text {
+  font-size: 16px;
+  font-weight: 500;
+  color: #282E3C;
+  color: rgba(0, 0, 0, 0.69);
+  letter-spacing: -0.2px;
+  padding-bottom: 37px;
+}
+
+.product-table-left-padding {
+  padding-left: 43px;
+}
+
+.product-table-top-padding {
+  padding-top: 13px;
+}
+
+.product-table-top-padding-second {
+  padding-top: 31px;
+}
+
+.product-table-top-padding-text {
+  padding-top: 14px;
+}
+
+.justify-content-flex-end {
+  justify-content: flex-end;
+}
